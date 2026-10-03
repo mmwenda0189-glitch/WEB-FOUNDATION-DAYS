@@ -1,0 +1,118 @@
+<!-- day1/about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickNotes - About</title>
+</head>
+<body>
+
+    <header>
+        <h1>QuickNotes</h1>
+        <p>Your lightweight, fast note-taking companion.</p>
+        
+        <!-- Shared Navigation Bar -->
+  <!-- Change href="/about.html" to href="about.html" -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <main>
+        <!-- Heading & Introduction Paragraphs -->
+        <section id="about">
+            <h2>About QuickNotes</h2>
+            <p>QuickNotes is a lightweight web application designed to help you instantly capture, organize, and manage your thoughts without unnecessary distractions. Built with speed and simplicity at its core, it ensures that your ideas are safely stored and accessible whenever inspiration strikes.</p>
+            <p>Whether you are drafting daily to-do lists, summarizing meeting notes, or saving code snippets, QuickNotes provides a streamlined interface tailored for seamless productivity. It eliminates complex setups so you can focus entirely on writing and organizing your daily tasks effortlessly.</p>
+        </section>
+
+        <!-- How to Use Section -->
+        <section id="how-to-use">
+            <h3>How to use QuickNotes</h3>
+            <ol>
+                <li>Click the "New Note" button to open a fresh editor workspace.</li>
+                <li>Type your title and content into the text area.</li>
+                <li>Press <strong>Ctrl + S</strong> (or <strong>Cmd + S</strong>) to save your note locally.</li>
+                <li>Use categories or tags to organize and search through your notes easily.</li>
+            </ol>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <h3>Features</h3>
+            <ul>
+                <li>Fast and responsive web-based note editor.</li>
+                <li>Automatic local storage synchronization.</li>
+                <li>Keyboard shortcuts for high-speed navigation and editing.</li>
+                <li>Clean, distraction-free writing environment.</li>
+            </ul>
+        </section>
+
+        <!-- Keyboard Shortcuts Section -->
+        <section id="shortcuts">
+            <h3>Keyboard shortcuts</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Shortcut</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>Ctrl + N</code></td>
+                        <td>Create a new note</td>
+                    </tr>
+                    <tr>
+                        <td><code>Ctrl + S</code></td>
+                        <td>Save current note</td>
+                    </tr>
+                    <tr>
+                        <td><code>Ctrl + D</code></td>
+                        <td>Delete current note</td>
+                    </tr>
+                    <tr>
+                        <td><code>Ctrl + F</code></td>
+                        <td>Search notes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section id="feedback">
+            <h3>Send feedback</h3>
+            <form action="#" method="post">
+                <p>
+                    <label for="user-name">Full Name:</label><br>
+                    <input type="text" id="user-name" name="user-name" required>
+                </p>
+
+                <p>
+                    <label for="user-email">Email Address:</label><br>
+                    <input type="email" id="user-email" name="user-email" required>
+                </p>
+
+                <p>
+                    <label for="feedback-message">Your Feedback:</label><br>
+                    <textarea id="feedback-message" name="feedback-message" rows="5" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Feedback</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer>
+        <p>&copy; 2026 QuickNotes. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
